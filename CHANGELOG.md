@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.50
+
+- More precise PII masking: decimal numbers are left intact.
+
 ## 0.1.49
 
 - `brizz.decision_call()`, `brizz.adecision_call()` and `brizz.record_decision_call()` trace calls to classification models that your own code makes. Requires a Brizz backend that reads decision calls; calls sent to an older one are not shown with their answers, and are priced only when you set their cost.
