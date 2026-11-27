@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.51
+
+- `OTEL_SPAN_ATTRIBUTE_COUNT_LIMIT` sets how many attributes a span keeps, for spans that need more than the default 4096.
+
 ## 0.1.50
 
 - More precise PII masking: decimal numbers are left intact.
